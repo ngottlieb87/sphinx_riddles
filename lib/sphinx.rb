@@ -6,7 +6,7 @@ class Sphinx
   end
 
   def question
-    @questions.keys.sample(1)
+    @questions.keys.sample(1) #change to index and rand(0..9) and compare index to answer value
   end
 
   def get_answer(answer)
