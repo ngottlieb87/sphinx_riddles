@@ -1,0 +1,9 @@
+<h1><%= @question[0]%></h1>
+
+<form action="/output" method="post">
+  <div class="form-group">
+    <label for="answer">Answer, if you dare!</label>
+    <input id="answer" name="answer" class="form-control" type="text" placeholder="The answer is a tricky one...">
+  </div>
+  <button type="submit" class="btn btn-success">Answer</button>
+</form>
